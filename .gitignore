@@ -1,0 +1,39 @@
+# Flutter/Dart generated files
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android/Gradle generated files and local SDK configuration
+android/.gradle/
+android/local.properties
+android/**/build/
+*.jks
+*.keystore
+
+# IDE and OS files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/google-services.json
+**/key.properties
+
+# Generated reports and APKs outside build/
+*.apk
+*.aab
+coverage/
+
+# Keep real documentation screenshots under version control.
+!docs/screenshots/
+!docs/screenshots/**
